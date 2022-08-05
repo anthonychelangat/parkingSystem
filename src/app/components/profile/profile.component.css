@@ -1,0 +1,133 @@
+.logout-button {
+  padding: 1200px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  justify-content: space-between;
+}
+
+.content{
+  padding: 20px;
+}
+
+.details {
+  text-align: center;
+}
+
+.dispaly1 {
+  padding-top: 13px;
+}
+
+.nav-name {
+  text-align: center;
+}
+
+.nav-image {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.navbar .photo {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.navbar .photo img {
+  width: 100%;
+}
+
+.icon-image {
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.demo-table {
+  width: 100%;
+}
+
+.mat-column-demo-position {
+  width: 32px;
+  border-right: 1px solid currentColor;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-demo-name {
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+.mat-column-demo-weight {
+  font-style: italic;
+}
+
+.mat-column-demo-symbol {
+  width: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidenav{
+  background:pink;
+}
+
+.profile-image, .margin-top {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.login-container {
+  padding: 150px;
+}
+
+.row {
+  gap: 16px;
+}
+
+ mat-form-field {
+  width: 50%;
+}
+
+.area{
+  width: 100%;
+  background:rgb(205, 204, 204);
+}
+
+.input{
+  width: 700px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+.example-additional-selection{
+  opacity: 0.75;
+  font-size: 0.75em;
+}
+
+.margin-top {
+  padding-left: 10px;
+  border-radius: 2px black;
+}

@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.photo {
+  display: block;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.photo img {
+  width: 100%;
+}
+
+.login-container {
+  padding: 150px;
+}
+
+.form-container {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  background: #eceff1;
+  padding: 16px;
+  border-radius: 16px;
+  }
+
+.form-container mat-form-field {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.text-center {
+  text-align: center;
+}

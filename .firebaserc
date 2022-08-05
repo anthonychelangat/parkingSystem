@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "parking-68891": {
+      "hosting": {
+        "parkingSystem": [
+          "parking-68891"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "parking-68891"
+  }
+}

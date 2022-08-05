@@ -1,0 +1,30 @@
+<div class="login-container">
+  <div class="form-container mat-elevation-z5">
+
+    <div class="photo">
+      <img class="profile-image-toolbar"
+        width="150"
+        height="150" src="assets/cloud.jpeg" alt="">
+    </div>
+
+    <h1 class="center margin-top margin-bottom">KYAMBOGO UNIVERSITY</h1>
+    <h1 class="center margin-top margin-bottom">Officer Login</h1>
+    <form color="accent" [formGroup]="loginForm" (ngSubmit)="submit()">
+      <mat-form-field>
+        <input matInput placeholder="Email address" formControlName="email" type="email">
+        <mat-error *ngIf="email?.errors?.['required']">Please enter a correct email</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="password" formControlName="password" type="password">
+        <mat-error *ngIf="password?.errors?.['required']">Password is required</mat-error>
+      </mat-form-field>
+
+      <div class="center margin-top">
+        <button mat-raised-button color="primary" type="submit">Login</button>
+      </div>
+
+      <span class="center margin-top"><a>Forgot Your Password?</a></span>
+    </form>
+
+  </div>
+</div>

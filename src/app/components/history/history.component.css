@@ -1,0 +1,97 @@
+.logout-button {
+    padding: 1200px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  mat-toolbar {
+    justify-content: space-between;
+  }
+
+  .content{
+    padding: 20px;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .dispaly1 {
+    padding-top: 13px;
+  }
+
+  .nav-name {
+    text-align: center;
+  }
+
+  .nav-image {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  .navbar .photo {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+  .navbar .photo img {
+    width: 100%;
+  }
+
+  .icon-image {
+    padding-bottom: 5px;
+    padding-right: 5px;
+  }
+
+  .demo-table {
+    width: 100%;
+  }
+
+  .mat-column-demo-position {
+    width: 32px;
+    border-right: 1px solid currentColor;
+    padding-right: 24px;
+    text-align: center;
+  }
+
+  .input, .search{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+  }
+
+  .search{
+    padding-left: 10px;
+  }
+
+
+  .mat-column-demo-name {
+    padding-left: 16px;
+    font-size: 20px;
+  }
+
+  .mat-column-demo-weight {
+    font-style: italic;
+  }
+
+  .mat-column-demo-symbol {
+    width: 32px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .sidenav{
+    background:pink;
+  }

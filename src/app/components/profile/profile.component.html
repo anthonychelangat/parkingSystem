@@ -1,0 +1,123 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+
+    <button mat-icon-button>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button>
+
+    <div class="dispaly1">
+      <p>Hello
+        <a routerLink="/profile" href="#">Chelangat Anthony</a>
+      </p>
+  </div>
+
+    <span class="spacer"></span>
+
+    <div class="dispaly1">
+      <p>
+      <a routerLink="/profile" mat-raised-button color="red">
+       <img class="profile-image-toolbar"
+       width="30"
+       height="30" src="assets/me.jpg" alt="">
+      Chelangat Anthony profile
+     </a>
+   </p>
+    </div>
+
+      <button color="warn" mat-button>
+        <mat-icon>logout</mat-icon>
+        Logout
+      </button>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav class="sidenav" #sidenav opened="true" mode="side">
+    <br>
+    <div class="nav-image">
+      <img mat-nav-content class="profile-image-toolbar"
+        width="100"
+        height="100" src="assets/me.jpg" alt="">
+    </div>
+
+    <div class="nav-name">
+      <h2>Chelangat Anthony</h2>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <div class="nav-name">
+      <h2>Admin</h2>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <mat-nav-list>
+      <a routerLink="/home" mat-list-item><mat-icon class="icon-image" >home</mat-icon> Home ></a>
+      <a routerLink="/profile-input" mat-list-item><mat-icon class="icon-image" >add</mat-icon> Add Officer ></a>
+      <a routerLink="/officer-list" mat-list-item><mat-icon class="icon-image" >person</mat-icon> Officers List ></a>
+      <a routerLink="/history" mat-list-item><mat-icon class="icon-image" >books</mat-icon> History ></a>
+      <a routerLink="/charts" mat-list-item><mat-icon class="icon-image" >histogram</mat-icon> Charts ></a>
+      <a routerLink="/settings" mat-list-item><mat-icon class="icon-image" >settings</mat-icon> Settings ></a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div style="height: 88vh">
+    <div class="content">
+
+    <!--Profile input begin-->
+    <div class="all">
+
+    <h1 align="center">Your Profile</h1>
+  <div class="profile-image">
+    <img
+    width="700"
+    height="650"
+     src="assets/me.jpg">
+  </div>
+
+    <form class="margin-top">
+      <div>
+      <div class="input">
+        <h2>Name</h2>
+        <p class="area">Chelangat Anthony</p>
+      </div>
+      <div class="input">
+        <h2>Email</h2>
+        <p class="area">chelangat@gmail.com</p>
+      </div>
+      <div class="input">
+        <h2>Nin Number</h2>
+        <p class="area">38udhnjq893</p>
+      </div>
+      <div class="input">
+        <h2>Phone</h2>
+        <p class="area">0703392995</p>
+      </div>
+      <div class="input">
+        <h2>Place of Work</h2>
+        <p class="area">Kyambogo University</p>
+      </div>
+      <div class="input">
+        <h2>District</h2>
+        <p class="area">Kapchorwa</p>
+      </div>
+      <div class="input">
+        <h2>Spouse</h2>
+        <p class="area">Drich M</p>
+      </div>
+      <div class="input">
+        <h2>Date of Birth</h2>
+        <p class="area">28/06/1998</p>
+      </div>
+      </div>
+    </form>
+  </div>
+    <!--Profile input end-->
+
+    </div>
+  </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
